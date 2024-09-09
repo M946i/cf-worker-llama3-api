@@ -3,19 +3,21 @@
 ##### curl
 
 ```bash
-curl --location --request GET 'your api address(https://?.workers.dev)' \
---header 'Host: your api address(no protocol!!!)' \
+curl --location --request GET 'https://?.workers.dev' \
+--header 'Host: ?.workers.dev' \
 --data-raw '{
     "prompt":"what is docker"
 }'
 ```
+
+
 ```python
 import requests
 
-url = "https://llama3.m946i.workers.dev"
+url = "https://?.workers.dev"
 
 headers = {
-    'Host': 'llama3.m946i.workers.dev',
+    'Host': '?.workers.dev',
 }
 data = "{\"prompt\": \"hello\"}"
 
