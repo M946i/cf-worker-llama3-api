@@ -10,8 +10,8 @@ curl --location --request GET 'https://?.workers.dev' \
 }'
 ```
 
-
-```python
+##### python
+```
 import requests
 
 url = "https://?.workers.dev"
