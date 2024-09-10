@@ -10,7 +10,7 @@ export default {
       if (!prompt) {
         return new Response('Missing "prompt" in request body', {
           status: 400, // Bad Request
-          headers: { 'Content-Type': 'text/plain' }
+          headers: { 'Content-Type': 'application/json' }
         });
       }
 
